@@ -1,0 +1,53 @@
+main div form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    .form{
+        border-radius: $radius1re;
+        padding: $padig5;
+        font-size: $font15;
+        align-items: center;
+    }
+}
+
+.buttom{
+    background:$whiteColor ;
+    cursor: pointer;
+    border: none;
+    padding: $raroPa;
+    color: $blackColor;
+    font-size: $font15;
+    font-weight: bold;
+    position: relative;
+    border-radius: $borderR12;
+    margin: $margin5;
+   
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient($bgbottom);
+        background-size: 800%;
+        border-radius: $borderR10;
+        filter: blur($px8);
+        animation: glowing 20s linear infinite ;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+        50% { 
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+    }
+}

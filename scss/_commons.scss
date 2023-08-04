@@ -1,0 +1,90 @@
+// Selectores comunes de mi proyecto
+* {
+    font-family: 'Rubik', sans-serif
+    
+}
+li {
+    text-decoration: none;
+    margin-right: 4rem;
+    list-style: none;
+}
+
+body{
+    background:radial-gradient($bgColor);
+}
+
+/* TEXTOS*/
+
+.primer {
+    font-size: $hfont20;
+    color: $blackColor;
+
+    &-H1 {
+        font-size: $hfont48 ;
+        color: $h1235Color ;
+        text-align: center; 
+    }
+
+    &-H2 {
+        font-size:$hfont30;
+        color: $h1235Color;
+        text-align: center;
+    }
+
+    &-H3 {
+        font-size: $hfont30;
+        color:$h1235Color;
+        text-align: center;
+    }
+
+    &-H4 {
+        font-size: $hfont20;
+        text-align: center;
+        color: $blackColor;
+    }
+}
+
+.textos{
+    text-align: center;
+    padding: $radius1re;
+    margin: $radius1re;
+    align-items: center;
+
+    &-nosotros {
+        text-align: center ;
+        padding: $radius1re;
+        margin: $radius1re;
+    }
+}
+
+
+// Fin Textos
+
+
+//icons
+  .bi-view-list{
+    color: $h1235Color;
+}
+
+.lista-iconos{
+    display: flex;
+    align-items: center;
+}
+
+.ubicacion {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+//footer
+footer {
+    padding: 8px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: $radius1re;
+    text-align: center;
+}
+

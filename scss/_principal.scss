@@ -1,0 +1,49 @@
+.pricipio{
+    display: flex;
+    margin: 5rem;
+    padding: $radius1re;
+    justify-content: center;
+
+    & img{
+        border-radius: $radius1re;
+    }
+    
+    &2{
+        display: flex;
+        align-items: center;
+        margin: $radius1re;
+        text-align: center; 
+    }
+
+}
+
+.section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    padding: $radius1re;
+
+    &-two{
+         
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    & img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+
+        &:hover{
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+    }
+
+}

@@ -1,0 +1,26 @@
+//nav
+
+.botonera{
+    background: linear-gradient($bgColor);
+    border: solid 3px;
+    display: flex;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: sticky;
+    left: 0;
+    top: 0;
+
+    img{
+        width: $widimg;
+        border-radius: $radius1re;   
+    }
+}
+
+a.nav-link{
+    color: $whiteColor;
+}
+.hover:hover{
+    background-color: $hoverHover;
+    border: $border solid $hover2Hover;
+    border-radius: $radius1re;
+}

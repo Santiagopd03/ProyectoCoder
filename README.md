@@ -75,11 +75,11 @@ git push origin nombre-de-tu-rama
 Este proyecto está bajo la Licencia MIT. Puedes ver más detalles en el archivo `LICENSE`.
 ## licks
 
-Github pages: 
+Github pages: https://santiagopd03.github.io/ProyectoCoder/
 
-Dominio en vercel:
+Dominio en vercel: milagros-celestiales.vercel.app
 
-Deployment de vercel: 
+Deployment de vercel: milagros-celestiales-santiagopd03.vercel.app 
 
 ## Agradecimientos
 
